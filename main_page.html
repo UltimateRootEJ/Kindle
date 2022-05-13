@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Kindle</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/575756bddb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="main_page">
+
+
+
+        <div class="panelleft">
+            <div class="profile">
+                <img id="profileImage" src="">
+                <p>Welcome back <br></p>
+                <h1 id="profileName"></h1>
+            </div>
+
+
+
+            <div class="panelbottom">
+
+
+
+                <div class="row-items">
+                    <h3>K.</h3>
+                    <p>My<br> Kindle Board </p>
+                </div>
+                <div class="row-items">
+                    <a href="#"><i class="fa-solid fa-box"></i>Collections</a><br><br>
+                </div>
+                <div class="row-items">
+                    <a href="#"><i class="fa fa-fw fa-bookmark"></i>Saved</a><br><br>
+
+                </div>
+                <div class="row-items">
+                    <a href="#"><i class="fa-solid fa-user"></i>Profile</a>
+                </div>
+                <div class="row-items">
+                    <a href="./index.html"><i class="fa-solid fa-arrow-right-to-bracket"></i>Logout</a>
+                </div>
+
+
+            </div>
+
+            <div class="logo">
+                <p>Product of</p>
+                <img src="./Media/Logo/Amazon-Logo-PNG.png" alt="amazon" height="50px">
+
+            </div>
+
+        </div>
+
+
+        <div class="content">
+            <div class="navbar">
+                <div class="navlogo">
+                    <p>Kindle<span style="color: orange;">.</span></p>
+                </div>
+                <div class="rightnavbar">
+                    <div class="search">
+                        <input type="text" placeholder="Search your books" name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </div>
+                    <a href="#">New Release</a>
+                    <a href="#contact">Featured</a>
+                    <div class="dottedMenu ">
+                
+                        <img type="button" src="./Media/Logo/4 dots.png" alt="amazon" height="50px">
+        
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+
+            <div class="mainbody">
+                <h4>Books you read last</h4>
+                <div class="lastreadbooks" id="lastreadbooks">
+
+                    <ul id="list">
+
+                        <li>
+                            <div class="bookItem" id="bookItem">
+                                <img id="bookread1img" src="">
+                                <h3 id="BookName1"></h3>
+                                <p id="details1"></p>
+                            </div>
+                        </li>
+
+
+                        <li>
+                            <div class="bookItem" id="bookItem">
+                                <img id="bookread2img" src="">
+                                <h3 id="BookName2"></h3>
+                                <p id="details2"></p>
+                            </div>
+                        </li>
+
+
+
+                        <li>
+                            <div class="bookItem" id="bookItem">
+                                <img id="bookread3img" src="">
+                                <h3 id="BookName3"></h3>
+                                <p id="details3"></p>
+                            </div>
+                        </li>
+
+
+
+
+                    </ul>
+
+                </div>
+                <div class="newreleaserow">
+                    <div class="first-column">
+                        <h4>New Release</h4>
+                        <div class="booklist">
+                            <div class="bookdetails" id="book-info">
+                                <img id="bookImg1" src="">
+                                <h3 id="bookName1"></h3>
+                                <p id="nameOfAuthor1"></p>
+                                <button id="Category1"></button>
+                            </div>
+                            <div class="bookdetails">
+                                <img id="bookImg2" src="">
+                                <h3 id="bookName2"></h3>
+                                <p id="nameOfAuthor2"></p>
+                                <button id="Category2"></button>
+                            </div>
+                            <div class="bookdetails">
+                                <img id="bookImg3" src="">
+                                <h3 id="bookName3"></h3>
+                                <p id="nameOfAuthor3"></p>
+                                <button id="Category3"></button>
+                            </div>
+                            <div class="bookdetails">
+                                <img id="bookImg4" src="">
+                                <h3 id="bookName4"></h3>
+                                <p id="nameOfAuthor4"></p>
+                                <button id="Category4"></button>
+                            </div>
+                            <div class="bookdetails">
+                                <img id="bookImg5" src="">
+                                <h3 id="bookName5"></h3>
+                                <p id="nameOfAuthor5"></p>
+                                <button id="Category5"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="authorcolumn">
+                        <h5>Famous Authers</h5>
+                        <div class="author-row">
+                            <img id="authorImg1" src="">
+                            <div class="author-details">
+                                <h6 id="authorName1"></h6>
+                                <p id="numOfBooks1"></p>
+                            </div>
+                        </div>
+                        <div class="author-row">
+                            <img id="authorImg2" src="">
+                            <div class="author-details">
+                                <h6 id="authorName2"></h6>
+                                <p id="numOfBooks2"></p>
+                            </div>
+                        </div>
+                        <div class="author-row">
+                            <img id="authorImg3" src="">
+                            <div class="author-details">
+                                <h6 id="authorName3"></h6>
+                                <p id="numOfBooks3"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+
+<script src="main_page.js"></script>
+<!---->
+
+</html>
